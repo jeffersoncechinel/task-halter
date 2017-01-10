@@ -72,7 +72,7 @@ class Halter
      * @param string $fileExtension
      * @return $this
      */
-    public function setFileExtension($fileExtension = self::LOCKFILE_EXT)
+    public function setFileExtension($fileExtension = self::HALTFILE_EXT)
     {
         $this->fileExtension = $fileExtension;
 
